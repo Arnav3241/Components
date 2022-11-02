@@ -1,0 +1,32 @@
+<div class="page flex h-screen w-screen items-center justify-center bg-slate-900">
+  <div class="comments h-[80%] w-[90%] rounded-lg bg-slate-800">
+    <div class="comment-header-field mx-10 mt-2 flex h-[10%] items-center justify-between">
+      <div class="title text-4xl font-thin text-white">Comments</div>
+      <div class="sub-title mt-2 text-xl font-thin text-slate-300">Markdown Supported</div>
+    </div>
+    <div class="comment-input-field mx-10 mt-2 flex h-[8%] justify-center rounded-lg bg-gray-700">
+      <div class="icon-field ml-1 flex w-14 items-center justify-center rounded-l-full">
+        <div class="h-8 w-8 rounded-full border border-slate-400 bg-slate-800"></div>
+      </div>
+      <input class="input-field  default:none mx-1 my-1 w-full rounded-lg border-slate-400 bg-slate-800 px-3 text-slate-300"></input>
+      <div class="enter-field bg -mr-3 ml-3 flex w-24 items-center rounded-r-full text-xl text-slate-300">Post</div>
+    </div>
+    <div class="flex w-full justify-center">
+      <hr class="my-5 w-[60%] border-slate-700" />
+    </div>
+    <div class="comment-display-field ml-5 w-full flex-col items-center justify-center">
+      <div class="comment-1 w-[100%]">
+        <div class="published-by"></div>
+        <div class="main mx-8 mb-5 h-auto w-[80%] rounded-lg bg-white p-4">Hello World</div>
+        <div class="published-at"></div>
+      </div>
+      <div class="comment-1 w-[100%]">
+        <div class="published-by"></div>
+        <div class="main mx-8 h-auto w-[80%] rounded-lg bg-white p-4">Hello World</div>
+        <div class="published-at"></div>
+      </div>
+      <div class="comment-2"></div>
+      <div class="comment-3"></div>
+    </div>
+  </div>
+</div>
